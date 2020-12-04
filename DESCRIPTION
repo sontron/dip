@@ -1,0 +1,23 @@
+Package: dip
+Type: Package
+Title: dip Grouper
+Version: 1.0.1
+Author: son tron
+Maintainer: son tron <sontron@foxmail.com>
+Description: This pakcage is mainly used for grouping in CHSDRG system.
+License: MIT
+Encoding: UTF-8
+LazyData: false
+Collate:
+    'DIPGrouper.R'
+    'CCEcl.R'
+    'onLoad.R'
+    'CCStat.R'
+RoxygenNote: 6.1.1
+Imports:
+    compiler,
+    data.table,
+    stringi
+ByteCompile: true
+Depends:
+    R (>= 3.5)
