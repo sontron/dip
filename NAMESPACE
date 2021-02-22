@@ -3,3 +3,4 @@
 export(CCExcl)
 export(CCStat2)
 export(DIPGrouper)
+export(DIPGrouper2)

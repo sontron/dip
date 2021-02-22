@@ -1,7 +1,7 @@
 Package: dip
 Type: Package
 Title: dip Grouper
-Version: 1.0.1
+Version: 1.1.3
 Author: son tron
 Maintainer: son tron <sontron@foxmail.com>
 Description: This pakcage is mainly used for grouping in CHSDRG system.
@@ -10,7 +10,7 @@ Encoding: UTF-8
 LazyData: false
 Collate:
     'DIPGrouper.R'
-    'CCEcl.R'
+    'CCEcl.R'   
     'onLoad.R'
     'CCStat.R'
 RoxygenNote: 6.1.1
@@ -20,4 +20,4 @@ Imports:
     stringi
 ByteCompile: true
 Depends:
-    R (>= 3.5)
+    R (>= 3.0)
